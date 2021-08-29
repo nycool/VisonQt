@@ -52,12 +52,13 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 SOURCES += \
+    src/FrameLessBase.cpp \
     src/main.cpp
 
 RESOURCES += \
     qml.qrc
 
 HEADERS += \
-    Inc/Test.h
+    Inc/FrameLessBase.h
 
 
