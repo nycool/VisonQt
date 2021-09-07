@@ -1,5 +1,7 @@
 <RCC>
     <qresource prefix="/">
         <file>Qml/main.qml</file>
+        <file>resource/ivision.png</file>
+        <file>Qml/Panel/TitlePanel.qml</file>
     </qresource>
 </RCC>
